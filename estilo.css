@@ -9,144 +9,68 @@ margin-top: 30px;
 margin-bottom: 30px;
 }
 
-.content-flex{
-    display:flex; /*define que el contenedor sea flexible*/
-    /*width: 400px;*/
-    height: 300px;
-    border: 3px solid greenyellow;
+.content-grid{
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    border: 3px solid rgb(97, 13, 97);
     margin: 0 auto;
-    background: beige;
-    flex-direction: column;
-    /*flex-wrap: wrap;*/
 }
-
-.contenido{
-    width: 100px;
-    height: 100px;
-}
-
 .contenido:nth-child(1){
-    background: cornflowerblue;
-    order: 3;
+    background: rgb(230, 0, 255);
+    grid-area: 1/ 1 / 8 / 2;
 }
 
 .contenido:nth-child(2){
-    background: cyan;
-    order: 5;
+    background: rgba(246, 214, 251, 0.908);
+    grid-area: 1/ 2 / 2 / 5;
 }
 
 .contenido:nth-child(3){
-    background: powderblue;
-    order: 4;
+    background: rgba(145, 164, 196, 0.908);
+    /*grid-row: 1/2  ;
+    grid-column: 5/6;*/
+
+    grid-area: 1/ 5 / 2 / 6;
 }
 
 .contenido:nth-child(4){
-    background: rgba(248, 214, 248, 0.713);
-    order: 1;
+    background: rgba(178, 190, 199, 0.908);
+    /*grid-row: 2/3  ;
+    grid-column: 2/6;*/
+
+    grid-area: 2/ 2 /3/ 6;
 }
 
 .contenido:nth-child(5){
-    background: peachpuff;
-    order: 6;
+    background: rgba(50, 210, 205, 0.908);
+    /*grid-row: 3/7  ;
+    grid-column: 2/4;*/
+
+    grid-area: 3/ 2 /7/ 4;
 }
 
 .contenido:nth-child(6){
-    background: palegoldenrod;
-    order: 2;
+    background: rgba(189, 244, 242, 0.908);
+    /*grid-row: 3/5  ;
+    grid-column: 4/6;*/
+
+    grid-area: 3/ 4 /5/ 6;
 }
 
-/*lo anterior es para una resolucion 
-menor o igual a 500px (MOVILE FIRST)*/
-/*Utilizamos Media query para validar la resolucion 800px*/
-/* Utilizando media query para validar al resolucion 700px */
-@media screen and (min-width:700px) {
-    .content-flex{
-        flex-direction: row;
-       /* flex-wrap: wrap-reverse;// auto ajuste */
-    }
-    .contenido:nth-child(1){
-        order: 1;
-        flex-grow: 2;
-    }
-    .contenido:nth-child(2){
-        order: 2;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(3){
-        order: 3;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(4){
-        order: 4;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(5){
-        order: 5;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(6){
-        order: 6;
-        flex-grow: 4;
-    }
+.contenido:nth-child(7){
+    background: rgba(87, 214, 150, 0.908);
+    /*grid-row: 5/7  ;
+    grid-column: 4/6;*/
+
+    grid-area: 5/ 4 /7/ 6;
 }
-/* Utilizando media query para validar al resolucion 800px */
-@media screen and (min-width:900px) {
-    .content-flex{
-        flex-direction: row;
-       /* flex-wrap: wrap-reverse;// auto ajuste */
-    }
-    .contenido:nth-child(1){
-        order: 3;
-        flex-grow: 2;
-    }
-    .contenido:nth-child(2){
-        order: 6;
-        flex-grow: 1;
-    }
-    .contenido:nth-child(3){
-        order: 1;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(4){
-        order: 4;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(5){
-        order: 2;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(6){
-        order: 5;
-        flex-grow: 0;
-    }
-}
-@media screen and (min-width:1200px) {
-    .content-flex{
-        flex-direction: row;
-       /* flex-wrap: wrap-reverse;// auto ajuste */
-    }
-    .contenido:nth-child(1){
-        order: 6;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(2){
-        order: 1;
-        flex-grow: 1;
-    }
-    .contenido:nth-child(3){
-        order: 5;
-        flex-grow: 2;
-    }
-    .contenido:nth-child(4){
-        order: 2;
-        flex-grow: 1;
-    }
-    .contenido:nth-child(5){
-        order: 3;
-        flex-grow: 0;
-    }
-    .contenido:nth-child(6){
-        order: 4;
-        flex-grow: 0;
-    }
+
+.contenido:nth-child(8){
+    background: rgba(170, 221, 204, 0.908);
+    /*grid-row: 7/8  ;
+    grid-column: 2/6;*/
+
+    grid-area: 7/ 2 / 8/ 6;
 }
