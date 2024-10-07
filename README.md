@@ -19,16 +19,16 @@ Este proyecto, llamado **maquetados_grid_template**, es una plantilla de diseño
 
 ## Ejemplos de Uso en Páginas Web
 
-El **maquetados_flexbox_template** es perfecto para:
+Este **maquetados_grid_template** es ideal para:
 
-- **Páginas de Servicios**: Organiza secciones de servicios, características y testimonios con una alineación clara y coherente.
-- **Landing Pages**: Diseña una página de aterrizaje con contenido dinámico que se ajuste fácilmente a diferentes tamaños de pantalla.
-- **Diseño de Formularios**: Crea formularios de contacto o registro con una disposición fluida y alineada que mejore la experiencia del usuario.
+- **Páginas de Portafolio**: Organiza secciones como proyectos, habilidades, y testimonios en una cuadrícula estructurada.
+- **Blogs**: Diseña una página de inicio de blog con artículos organizados en filas y columnas.
+- **E-commerce**: Crea una página de productos con un diseño de cuadrícula que permite una visualización clara y organizada.
 
 ## Estructura del Proyecto
 
-- `index.html`: Contiene la estructura principal de la página utilizando Flexbox para el diseño.
-- `styles.css`: Incluye las reglas de estilo para la disposición flexible de los elementos, con configuraciones de alineación y justificación.
+- `index.html`: Contiene la estructura principal de la página con el uso de CSS Grid.
+- `styles.css`: Incluye los estilos para el diseño de cuadrícula, con reglas específicas para la disposición de filas y columnas.
 
 ## Autor
 
