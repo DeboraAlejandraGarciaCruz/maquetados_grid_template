@@ -16,3 +16,20 @@ Este proyecto, llamado **maquetados_grid_template**, es una plantilla de diseño
 2. Abre el archivo `index.html` en tu navegador para ver una demostración del diseño.
 3. Personaliza las clases y estilos en el archivo `styles.css` según tus necesidades de diseño.
 4. Integra esta plantilla en tus proyectos web para crear diseños responsivos y modernos con facilidad.
+
+## Ejemplos de Uso en Páginas Web
+
+El **maquetados_flexbox_template** es perfecto para:
+
+- **Páginas de Servicios**: Organiza secciones de servicios, características y testimonios con una alineación clara y coherente.
+- **Landing Pages**: Diseña una página de aterrizaje con contenido dinámico que se ajuste fácilmente a diferentes tamaños de pantalla.
+- **Diseño de Formularios**: Crea formularios de contacto o registro con una disposición fluida y alineada que mejore la experiencia del usuario.
+
+## Estructura del Proyecto
+
+- `index.html`: Contiene la estructura principal de la página utilizando Flexbox para el diseño.
+- `styles.css`: Incluye las reglas de estilo para la disposición flexible de los elementos, con configuraciones de alineación y justificación.
+
+## Autor
+
+Debora Alejandra
