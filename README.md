@@ -32,4 +32,4 @@ Este **maquetados_grid_template** es ideal para:
 
 ## Autor
 
-Debora Alejandra G
+Debora Alejandra Ga
